@@ -1,0 +1,43 @@
+.container{
+    display: flex;
+    /*position: relative;*/
+    flex-direction: column;
+    gap: 0.2rem;
+    width: 90%;
+
+    /*width: 90rem;*/
+    /*left: 90px;*/
+    /*box-sizing: border-box;*/
+    /*justify-content: center;*/
+}
+.search{
+    padding: 1.4rem;
+    font-style: normal;
+    font-weight: normal;
+    background-color: #5f6471;
+}
+
+.chart{
+    display: flex;
+    padding: 1rem;
+    margin: 1rem;
+    justify-content: flex-end;
+    /*background: #1b879a;*/
+}
+.page_one{
+    width:30px;
+    height:30px;
+    margin-right:20px;
+    color: #7b7575;
+}
+.page_two{
+    width:30px;
+    height:30px;
+    color: #7b7575;
+}
+.page_one:hover,
+.page_two:hover{
+    color: #3e3b3b;
+
+
+}

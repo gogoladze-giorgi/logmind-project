@@ -1,0 +1,19 @@
+.flex{
+    display: flex;
+    justify-content: space-around;
+    background:rgba(91, 136, 251, 1);
+    padding-top: 1.2rem;
+    padding-bottom: 1.2rem;
+    color: white;
+    border-radius:10px;
+    list-style: none;
+    padding-left: 4rem;
+}
+.container{
+    display:flex;
+    justify-content:space-around;
+    list-style: none;
+    color: #585555;
+
+
+}

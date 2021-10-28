@@ -1,0 +1,15 @@
+.flex{
+    display:flex;
+    justify-content:space-around;
+}
+@media(max-width:950px){
+    .flex{
+        display:flex;
+        flex-direction:column;
+        justify-content:space-around;
+
+    }
+    .Autocomplete{
+        padding-bottom:12px;
+    }
+}
